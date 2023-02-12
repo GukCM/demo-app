@@ -1,9 +1,14 @@
 import React from 'react'
+import Nike from "../../images/Nike.jpg"
 export const Header = () => {
   return (
-    <div>
-        <h1>Header</h1>
-    </div>
+    <header>
+      <a href="#">
+        <div className='logo'>
+          <img src={Nike} alt=''/>
+        </div>
+      </a>
+    </header>
   )
 }
 
